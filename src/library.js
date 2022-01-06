@@ -3527,6 +3527,12 @@ LibraryManager.library = {
   __c_longjmp: "new WebAssembly.Tag({'parameters': ['{{{ POINTER_TYPE }}}']})",
   __c_longjmp_import: true,
 #endif
+#if ASYNCIFY
+  __asyncify_state: "new WebAssembly.Global({'value': 'i32', 'mutable': true}, 0)",
+  __asyncify_state__import: true,
+  __asyncify_data: "new WebAssembly.Global({'value': 'i32', 'mutable': true}, 0)",
+  __asyncify_data__import: true,
+#endif
 #endif
 };
 
