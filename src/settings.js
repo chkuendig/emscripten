@@ -1452,6 +1452,10 @@ var USE_LIBPNG = false;
 // [compile+link]
 var USE_REGAL = false;
 
+// 1 = use Faad2 from emscripten-ports
+// [compile+link]
+var USE_FAAD = false;
+
 // 1 = use Boost headers from emscripten-ports
 // [compile+link]
 var USE_BOOST_HEADERS = false;
@@ -1463,6 +1467,10 @@ var USE_BULLET = false;
 // 1 = use vorbis from emscripten-ports
 // [compile+link]
 var USE_VORBIS = false;
+
+// 1 = use theora from emscripten-ports
+// [compile+link]
+var USE_THEORA = false;
 
 // 1 = use ogg from emscripten-ports
 // [compile+link]

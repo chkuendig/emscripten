@@ -42,6 +42,8 @@ PORTS_SETTINGS = {
     'USE_LIBJPEG',
     'USE_OGG',
     'USE_REGAL',
+    'USE_THEORA',
+    'USE_FAAD',
     'USE_BOOST_HEADERS',
     'USE_HARFBUZZ',
     'USE_MPG123',
